@@ -22,7 +22,7 @@ def diabetes():
             prediction_statement = "The machine learning algorithm has predicted that you have diabetes"
     return render_template("index.html", prediction=prediction_statement)
 
-@app.route("/sub", methods=["POST"])
+@app.route("/predict", methods=["Get","POST"])
 def submit():
     if request.method == "POST":
         name = request.form["username"]
