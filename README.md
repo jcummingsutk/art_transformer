@@ -2,7 +2,7 @@
 
 ![Spellstutter Sprite](139429.jpg "Spellstutter Sprite")
 
-Check out the [jupyter notebook](https://github.com/jcummingsutk/art_transformer/blob/master/guay_classifier_functional.ipynb)
+Check out the [jupyter notebook](https://github.com/jcummingsutk/art_transformer/blob/master/guay_classifier_functional.ipynb) to see the code for the project described below.
 
 Magic: The Gathering (mtg) is a collectible card game developed by Richard Garfield that can be simply summarized as "Dungeons and Dragons with Cards". One of the great features of it is the great art that comes with it. Personally, I really enjoy art from Rebecca Guay. That's her artwork for Spellstutter Sprite above.
 
