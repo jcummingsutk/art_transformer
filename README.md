@@ -2,6 +2,8 @@
 
 ![Spellstutter Sprite](139429.jpg "Spellstutter Sprite")
 
+Check out the [jupyter notebook](https://github.com/jcummingsutk/art_transformer/blob/master/guay_classifier_functional.ipynb)
+
 Magic: The Gathering (mtg) is a collectible card game developed by Richard Garfield that can be simply summarized as "Dungeons and Dragons with Cards". One of the great features of it is the great art that comes with it. Personally, I really enjoy art from Rebecca Guay. That's her artwork for Spellstutter Sprite above.
 
 The purpose for this project is twofold. Immediately, this is a curiousity project, as I wanted to see if I could use techniques I've learned from convolutional neural networks (CNN) not to just identify objects, but also artist styles. Second, it serves as a precursor to one day creating a nueral transfer project which takes an input of art and "guayifies" it, turning it into art in the style of Rebecca Guay.
@@ -10,7 +12,7 @@ As mentioned above, this notebook builds a classifier that identifies if a parti
 
 Once obtained, using the functional api of TensorFlow I detach the top of the ResNet50 CNN trained with imagenet weights and freeze those weights. I attach a dense layer and a sigmoid layer to the CNN and use it for classification. Greater than 99% accuracy is obtained on the test set.
 
-The results of this project could more generally be adapted to produce an artist detection application, or perhaps an an artist selection application where the user takes photos of the art that is in their
+The results of this project could more generally be adapted to produce an artist detection application, or an artist selection application where the user takes photos of the art that decorates their walls and can suggest similar artists.
 
 ## Useful links
 - mtg sdk: https://github.com/MagicTheGathering/mtg-sdk-python
